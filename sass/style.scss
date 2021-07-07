@@ -1,0 +1,32 @@
+.wrapper {
+	display: flex;
+	flex-direction: column;
+	flex-wrap: nowrap;
+	max-width: 300px;
+	border: 1px solid lightgray;
+	padding: 24px;
+}
+
+.input-wrapper {
+	position: relative;
+	display: flex;
+	flex-direction: column;
+}
+
+.input-wrapper:first-of-type {
+	margin-bottom: 24px;
+}
+
+.input-wrapper input {
+	height: 24px;
+}
+
+.input-wrapper img {
+	cursor: pointer;
+}
+
+.input-image {
+	position: absolute;
+	right: 10px;
+	top: 26px;
+}
